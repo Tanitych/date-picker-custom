@@ -1,0 +1,39 @@
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.module_data_input {
+    background: #FFFFFF;
+    border: 2px solid rgba(185, 194, 207, 0.4);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 284px;
+    width: 100%;
+    height: 56px;
+    padding: 7px 12px;
+    margin-bottom: 8px;
+}
+
+.module_data_input .inner_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.module_data_input .inner_box .title {
+    font-size: 12px;
+    line-height: 16px;
+    color: #6F7893;
+}
+
+.module_data_input .inner_box input {
+    font-size: 18px;
+    line-height: 24px;
+    color: #3C3F42;
+}
+
+.module_data_input .arrow {
+    display: flex;
+    align-items: center;
+}
